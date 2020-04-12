@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comm.example.florian.pyramid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="comm.example.florian.pyramid.Welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.setupPlayer" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.preliminaryTour" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.pyramidClass" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.secondStep" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.thirdStep" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.fourthStep" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.finalStep" >
+        </activity>
+        <activity android:name="comm.example.florian.pyramid.rulePage" >
+        </activity>
+    </application>
+
+</manifest>

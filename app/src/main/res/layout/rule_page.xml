@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Rules"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="276dp"
+        android:layout_height="534dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/pyramid_rule"
+        android:textAllCaps="false"
+        android:textSize="19sp" />
+</LinearLayout>

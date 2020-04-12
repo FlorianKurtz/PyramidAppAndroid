@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="comm.example.florian.pyramid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:5:5-50:19
+12        android:allowBackup="true"
+12-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:6:9-35
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:10:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="comm.example.florian.pyramid.Welcome" >
+20-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:12:9-17:20
+20-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:12:19-42
+21            <intent-filter>
+21-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:13:13-16:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:14:17-69
+22-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:15:17-77
+24-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:15:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="comm.example.florian.pyramid.setupPlayer" >
+27-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:19:9-21:20
+27-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:20:13-40
+28        </activity>
+29        <activity android:name="comm.example.florian.pyramid.preliminaryTour" >
+29-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:23:9-25:20
+29-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:24:13-44
+30        </activity>
+31        <activity android:name="comm.example.florian.pyramid.pyramidClass" >
+31-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:27:9-29:20
+31-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:28:13-41
+32        </activity>
+33        <activity android:name="comm.example.florian.pyramid.secondStep" >
+33-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:31:9-33:20
+33-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:32:13-39
+34        </activity>
+35        <activity android:name="comm.example.florian.pyramid.thirdStep" >
+35-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:35:9-37:20
+35-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:36:13-38
+36        </activity>
+37        <activity android:name="comm.example.florian.pyramid.fourthStep" >
+37-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:39:9-41:20
+37-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:40:13-39
+38        </activity>
+39        <activity android:name="comm.example.florian.pyramid.finalStep" >
+39-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:43:9-45:20
+39-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:44:13-38
+40        </activity>
+41        <activity android:name="comm.example.florian.pyramid.rulePage" >
+41-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:47:9-49:20
+41-->C:\Users\Flori\Documents\AndroidStudioProjects\Pyramid\app\src\main\AndroidManifest.xml:48:13-37
+42        </activity>
+43    </application>
+44
+45</manifest>

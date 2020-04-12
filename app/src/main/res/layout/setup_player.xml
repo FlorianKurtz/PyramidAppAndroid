@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/title"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:fontFamily="casual" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/rules"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="?"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:max="7"
+        android:progress="@android:integer/config_mediumAnimTime"
+        android:progressDrawable="@color/colorPrimaryDark"
+        android:thumbTint="@android:color/white"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="241dp"
+        android:layout_height="289dp"
+        android:layout_gravity="center"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="20dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp">
+
+
+    </GridView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/gobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/begin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="18sp" />
+</LinearLayout>

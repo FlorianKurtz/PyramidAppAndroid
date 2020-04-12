@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comm.example.florian.pyramid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".setupPlayer">
+        </activity>
+
+        <activity
+            android:name=".preliminaryTour">
+        </activity>
+
+        <activity
+            android:name=".pyramidClass">
+        </activity>
+
+        <activity
+            android:name=".secondStep">
+        </activity>
+
+        <activity
+            android:name=".thirdStep">
+        </activity>
+
+        <activity
+            android:name=".fourthStep">
+        </activity>
+
+        <activity
+            android:name=".finalStep">
+        </activity>
+
+        <activity
+            android:name=".rulePage">
+        </activity>
+    </application>
+
+</manifest>

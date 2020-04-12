@@ -1,0 +1,63 @@
+<resources>
+    // Layout : welcome
+    <string name="app_name">Pyramid</string>
+    // Layout : setup_player
+    <string name="title">Adventurers</string>
+    <string name="title_p1">1 - </string>
+    <string name="name_p1">Player 1</string>
+    <string name="title_p2">2 - </string>
+    <string name="name_p2">Player 2</string>
+    <string name="title_p3">3 - </string>
+    <string name="name_p3">Player 3</string>
+    <string name="title_p4">4 - </string>
+    <string name="name_p4">Player 4</string>
+    <string name="title_p5">5 - </string>
+    <string name="name_p5">Player 5</string>
+    <string name="title_p6">6 - </string>
+    <string name="name_p6">Player 6</string>
+    <string name="title_p7">7 - </string>
+    <string name="name_p7">Player 7</string>
+    <string name="title_p8">8 - </string>
+    <string name="name_p8">Player 8</string>
+    <string name="begin">Let\'s the game begin !</string>
+    // Layout : first_step
+    <string name="first_step_player_name">Player</string>
+    <string name="first_tour">Pick a color</string>
+    <string name="first_tour_choice_one">Red</string>
+    <string name="first_tour_choice_two">Black</string>
+    <string name="second_tour">Above or Below ?</string>
+    <string name="second_tour_choice_one">Above</string>
+    <string name="second_tour_choice_two">Below</string>
+    <string name="third_tour">In or Out ?</string>
+    <string name="third_tour_choice_one">In</string>
+    <string name="third_tour_choice_two">Out</string>
+    <string name="fourth_tour">Pick a flush</string>
+    <string name="fourth_tour_choice_one">Diamonds</string>
+    <string name="fourth_tour_choice_two">Spades</string>
+    <string name="fourth_tour_choice_three">Hearts</string>
+    <string name="fourth_tour_choice_four">Clubs</string>
+    <string name="final_tour">Remember your card\'s value in order..</string>
+    <string name="first_step_next_button">Next step</string>
+    // Layout : pyramid
+    <string name="pyramid_desc">For one sip....</string>
+    <string name="next_tour_button">Next tour</string>
+    // Layout : second_step
+    <string name="second_step_player_name">Player</string>
+    <string name="second_step_challenge_string">For X sip</string>
+    <string name="second_step_question_string">Have you</string>
+    <string name="second_step_yes_string">Yes</string>
+    <string name="second_step_no_string">No</string>
+    // Layout : third_step
+    <string name="third_step_player_name">Player</string>
+    <string name="third_step_challenge_string">You have received X drinks !</string>
+    <string name="third_step_question_string">Do you believe player X ?</string>
+    // Layout : fourth_step
+    <string name="fourth_step_player_name">Player</string>
+    <string name="fourth_step_challenge_string">Player Y doesn\'t believe you, Pick your right card !</string>
+    // Layout : rule_page
+    <string name="pyramid_rule">\tWelcome to the pyramid ! This game is a drinking game.\n\n\tDuring the fourth firsts tours
+    cards will be dealt to each player by asking simple question about their types. When each player has 4 cards in hands,
+    they have to remember their values in order.\n\n\tThe pyramid now begins, it has 5 levels corresponding to the sips to give.
+    For each card, each player can give drinks at one player. This player will have to trust the giver or to ask him/her
+    to reveal the card concerned for twice the sips.\n\n\t\t\t\t\t\t\t\t\t Enjoy !</string>
+</resources>
